@@ -1,0 +1,65 @@
+body {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/marble.jpg);
+	font-family: 'Raleway', sans-serif;
+	
+}
+header {
+	display: block;
+	height: 200px;
+}
+h1 {
+	display: inline-block;
+	width: 30%;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Alex Brush', cursive;
+	padding-top: 40px;
+}
+.icon {
+	width: 100px;
+	display: inline-block;
+}
+.mainnav {
+	display: inline;
+	float: right;
+	text-align: center;
+	padding: 75px 0;
+
+}
+.mainnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.mainnav li {
+    float: left;
+    text-align: center;
+}
+
+.mainnav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+
+.mainnav ul li a:hover {
+    background-color: rgba(204, 188, 224, .3);;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	font-size:20px;
+	text-align: center;
+	padding: 10px;
+}

@@ -1,0 +1,33 @@
+
+article {
+	background-color: rgba(204, 188, 224, .3);
+	padding: 30px;
+
+}
+.etsy {
+	padding-bottom: 2%;
+}
+.banner {
+	width: 60%;
+}
+.icon {
+	width: 10%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+}
+.text {
+	float: right;
+	display: inline-block;
+	width: 20%;
+	margin: auto ;
+	text-align: center;
+	margin-top: 5%;
+
+}
+.text a {
+	text-decoration: none;
+	color: black;
+}
+.redbubblebanner {
+	width: 60%;
+}
